@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: black;
+}
+.con{
+    height:550px;
+    width:100%;
+    border:1px solid black;
+    background-image: url("booksbg.jfif");
+    display:flex;
+    justify-items:center;
+    align-items:center;
+    
+}
+.con1{
+    background-color: black;
+    height:100px;
+    width:200px;
+    position:relative;
+    margin-left:90vh;
+    color:white;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+   font-size:xx-large;
+}
+
+#b1{
+    margin-top:25px;
+}
+.book{
+    height:150px;
+    width:100%;
+    border:1px solid black;
+    background-color:white;
+    border-radius:10px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
